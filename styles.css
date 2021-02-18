@@ -1,0 +1,257 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #F0F2F5;
+    line-height: 1;
+    color: #434A54;
+}
+
+#header, h1 {
+    text-align: center;
+    color: #434A54;
+    margin: 10px;
+    font-size: 24px;
+    padding: 10px;
+
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 10%;
+    text-align:center;
+}
+
+.container.color {
+    display: flex;
+    flex-direction:column;
+}
+
+div.color-container {
+    width: 592px;
+    height:auto;
+    margin: 0 auto;
+}
+
+div.box {
+    border-radius: 5px;
+    display: block;
+    width: 128px;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 2px 6px #CCC;
+}
+
+div.left-color {
+    display: block;
+    float: left;
+    width: 64px;
+	height: 50px;
+    border-top-left-radius: 5px;
+}
+
+div.right-color {
+    display: block;
+    float: left;
+    width: 64px;
+	height: 50px;
+    border-top-right-radius: 5px;
+}
+
+div.box p {
+    display: block;
+    float: left;
+    padding: 5px 0px 5px 5px;
+    font-size: 11px;
+    color: #999999;
+}
+
+div.box h1 {
+    display: block;
+    float: left;
+    padding: 5px 0px 0px 5px;
+    font-size: 14px;
+    color: #494A4A;
+}    
+#font-container {
+    display: block;
+    
+}
+
+
+div.font {
+    display: inline-block;
+    width: 45%;
+    height:auto;
+    flex-direction: row;
+    box-shadow: 0 2px 6px #CCC;
+    border-radius: 5px;
+    text-align: left;
+    margin: 15px;
+}
+
+div.font p {
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+}
+
+ul {
+    display: block;
+    list-style-type: square;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    padding: 2px;
+}
+
+
+div.container.text-styles {
+    text-align: left;
+    display: block;
+    
+}
+
+div.container.text-styles h1 {
+    text-align: left;
+    display: block;
+    font-weight: 700;    
+}
+
+div.container.text-styles p {
+    padding: 15px;
+    font-weight: 400;
+}
+
+div.container.font-panel h2 {
+    font-weight: 500;    
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.font.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font.noto-sans-jp {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+div.left-color.red-light {
+    background-color:#ED5565;
+} 
+
+div.right-color.red-dark {
+    background-color: #F44336;
+}
+
+div.left-color.pink-light {
+    background-color:#EC407A;
+} 
+
+div.right-color.pink-dark {
+    background-color: #E91E63 ;
+}
+
+div.left-color.purple-light {
+    background-color: #AB47BC;
+} 
+
+div.right-color.purple-dark {
+    background-color: #9C27B0;
+}
+
+div.left-color.blue-light {
+    background-color:#42A5F5;
+} 
+
+div.right-color.blue-dark {
+    background-color: #2196F3;
+}
+
+div.left-color.teal-light {
+    background-color: #80CBC4;
+}
+div.right-color.teal-dark {
+    background-color: #4DB6AC;
+}
+
+div.left-color.green-light {
+    background-color:#66BB6A;
+} 
+
+div.right-color.green-dark {
+    background-color: #4CAF50;
+}
+
+div.left-color.yellow-light {
+    background-color:#FFEB3B;
+} 
+
+div.right-color.yellow-dark {
+    background-color: #FDD835;
+}
+
+div.left-color.orange-light {
+    background-color:#FFA726;
+} 
+
+div.right-color.orange-dark {
+    background-color: #FF9800;
+}
